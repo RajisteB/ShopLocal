@@ -1,0 +1,21 @@
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+}
+.App-Content {
+  width: 95%;
+  height: 85%;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+.title {
+  height: 8%;
+}
+.title h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #F20804;
+}

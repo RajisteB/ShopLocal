@@ -4,18 +4,18 @@
   height: 100vh;
   width: 100vw;
   overflow-y: hidden;
+  background: rgba(250, 250, 250, 0.868);
 }
 .App-Content {
   width: 95%;
   height: 85%;
   margin: 0 auto;
-  margin-top: 20%;
-}
-.title {
-  height: 8%;
+  margin-top: 16%;
 }
 .title h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: #F20804;
+  padding: 10px 0px;
+  margin: 0;
 }

@@ -14,7 +14,6 @@ class Query extends Component {
     this.setState({
       isOpen: !this.state.isOpen
     })
-    console.log('[Query.jsx]: In handleShowMenu function...');
   }
 
   componentDidMount() {

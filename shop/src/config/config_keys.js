@@ -1,0 +1,3 @@
+export const REACT_APP_SHOP_LOCAL_KEY = '8e7d65fcb758427f86cf1cb033502383';
+export const REACT_APP_GOOGLE_MAP_KEY = 'AIzaSyC-xAZYd7hi1emc9RxMIZb_ebAkfB_5IQA';
+export const REACT_APP_YELP_KEY = 'kDjX5kBUX5OCQ1Pt06R5UoWO8ZlwZhqNtA-5gn1i3gTetgnQe8pFRjlIHOZEo04tabaTToVaYlp3KcVsz_vIpigxthRk_FoCOrxzRnqv--tYz8J7uvzgJ6qwpXGpW3Yx';

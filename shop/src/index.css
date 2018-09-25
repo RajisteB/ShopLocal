@@ -9,3 +9,18 @@ body {
   padding: 0;
   /* overflow-x: hidden; */
 }
+
+.fade-enter {
+  transform: translate(-200%, 0);
+  opacity: 0.5;
+  transition: transform 1s ease-in-out;
+  position: absolute;
+}
+.fade-enter-active {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+.fade-exit {
+  transform: translate(-200%, 0);
+  transition: transform 1s ease-in-out;
+}

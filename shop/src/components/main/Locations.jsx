@@ -8,10 +8,14 @@ const Frame = (props) => {
   );
 }
 
-
 class Locations extends Component {
   constructor(props) {
     super(props);
+  }
+
+  getVenueData = (zip, location) => {
+    this.props.handleVenue(zip);
+    this.props.getLocation(location);
   }
   render() {
     return (
@@ -34,7 +38,7 @@ class Locations extends Component {
                 <Link to={`/${loc.name}`} key={idx} style={{textDecoration: 'none'}}>
                   <div className="locale-container" 
                     style={style}  
-                    onClick={() => this.props.handleLocation(loc.name)}
+                    onClick={() => this.getVenueData(loc.zipcode, loc.name)}
                   >
                     <div className="locale-overlay"></div>
                     <h2>{loc.name}</h2>
